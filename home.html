@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoBazar</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="py-3 border-b border-gray-300">
+        <div class="flex justify-between items-center w-[90%] mx-auto">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Store Location: Lincoln - 344, Illinois, chicago, USA</h3>
+          </div>
+          <div class="flex items-center gap-6">
+            <div class="flex items-center gap-2">
+              <p>Eng</p>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <div class="flex items-center gap-2 border-r pr-5 border-gray-500">
+              <p>Usd</p>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+            <div>Sign up / Sign in</div>
+          </div>
+        </div>
+      </div>
+      <div class="border-b border-gray-400">
+        <div class="flex justify-between items-center w-[90%] mx-auto py-6">
+          <div>
+            <img src="./res/logo.png" alt="" />
+          </div>
+          <div>
+            <input
+              class="bg-gray-100 px-3 py-1 rounded-l-md border border-gray-400"
+              placeholder="search  "
+              type="search"
+              name="search"
+              id=""
+            />
+            <button
+              class="bg-green-500 py-1 px-3 -ml-1 rounded-r-md text-white font-semibold"
+            >
+              Search
+            </button>
+          </div>
+          <div class="flex items-center gap-5">
+            <div class="pr-5 border-r border-gray-400 text-2xl">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="flex items-center gap-4">
+              <div><i class="fa-solid fa-briefcase text-2xl"></i></div>
+              <div>
+                <p>Shopping cart</p>
+                <p>$57.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black text-white py-4">
+        <div class="flex items-center justify-between w-[90%] mx-auto">
+          <div class="flex items-center gap-4">
+            <p>Home</p>
+            <p>Shop</p>
+            <p>Pages</p>
+            <p>Blog</p>
+            <a href="index.html">About Us</a>
+            <p>Contact Us</p>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              <p>(219) 555-0114</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HEROO SECTION  -->
+      <div class="my-10">
+        <div class="flex justify-between items-center w-[90%] mx-auto gap-2">
+          <div class="w-8/12">
+            <img src="./res/b1.png" alt="" />
+          </div>
+          <div class="w-4/12 flex flex-col justify-center gap-2">
+            <img src="./res/b2.png" alt="" />
+            <img src="./res/b3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- SHIPPING SECTION  -->
+      <div class="my-10">
+        <div
+          class="flex justify-between items-center rounded-md px-5 gap-3 py-10 shadow-lg w-[90%] mx-auto"
+        >
+          <div class="flex items-center gap-3">
+            <div class="text-2xl text-green-500">
+              <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div>
+              <h3 class="font-bold">Free Shipping</h3>
+              <p>Free shipping on all your order</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="text-2xl text-green-500">
+              <i class="fa-solid fa-headphones"></i>
+            </div>
+            <div>
+              <h3 class="font-bold">Customer Support 24/7</h3>
+              <p>Instant access to Support</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="text-2xl text-green-500">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <div>
+              <h3 class="font-bold">100% Secure Payment</h3>
+              <p>We ensure your money is save</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="text-2xl text-green-500">
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+            <div>
+              <h3 class="font-bold">Money-Back Guarantee</h3>
+              <p>30 Days Money-Back Guarantee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- POPULAR CATEGORIES  -->
+      <div class="my-10">
+        <div class="w-[90%] mx-auto">
+          <h2 class="font-bold text-3xl">Popular Categories</h2>
+          <div class="flex items-center gap-1 justify-end text-green-500 mb-5">
+            <p>View All</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="grid grid-cols-6 gap-3">
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c1.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c2.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c3.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c4.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c5.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c5.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c1.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c2.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c3.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c5.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c3.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+            <div
+              class="px-3 py-5 shadow border border-gray-300 flex flex-col justify-center items-center gap-3"
+            >
+              <img src="./res/c1.png" alt="" />
+              <p>Fresh Fruit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- POPULAR PRODUCTS -->
+      <div class="my-10">
+        <div class="w-[90%] mx-auto">
+          <h2 class="font-bold text-3xl">Popular Products</h2>
+          <div class="flex items-center gap-1 justify-end text-green-500 mb-5">
+            <p>View All</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="grid grid-cols-5 gap-0">
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p1.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p5.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p4.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p2.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p5.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p2.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p3.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p4.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p5.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-5 shadow border border-gray-300">
+              <img src="./res/p3.png" alt="" />
+              <div class="flex justify-between items-center">
+                <div>
+                  <p>Green Apple</p>
+                  <p>Price: $13.45</p>
+                  <div class="text-orange-400">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star text-gray-400"></i>
+                  </div>
+                </div>
+                <div class="text-2xl bg-gray-300 px-3 py-2 rounded-full">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AWESOME SECTION Testimonials  -->
+       <div class=" py-20 bg-[#F2F2F2]">
+        <div class="text-center">
+          <h3 class="text-7xl font-bold mb-5">Our Awesome Team</h3>
+          <p class="text-xl">
+            Pellentesque a ante vulputate leo porttitor luctus sed eget eros.
+            Nulla et rhoncus <br />
+            neque. Duis non diam eget est luctus tincidunt a a mi.
+          </p>
+        </div>
+        <div class="my-10">
+          <div class="flex justify-between items-center w-[80%] mx-auto">
+            <div>
+              <img src="./res/Image (6).png" alt="" />
+              <div class="pl-3 pt-2 pb-3 shadow-lg rounded-b-md">
+                <p class="text-xl font-semibold">Jenny Wilson</p>
+                <p>Ceo & Founder</p>
+              </div>
+            </div>
+            <div>
+              <img src="./res/Image (3).png" alt="" />
+              <div class="pl-3 pt-2 pb-3 shadow-lg rounded-b-md">
+                <p class="text-xl font-semibold">Jenny Wilson</p>
+                <p>Ceo & Founder</p>
+              </div>
+            </div>
+            <div>
+              <img src="./res/Image (4).png" alt="" />
+              <div class="pl-3 pt-2 pb-3 shadow-lg rounded-b-md">
+                <p class="text-xl font-semibold">Jenny Wilson</p>
+                <p>Ceo & Founder</p>
+              </div>
+            </div>
+            <div>
+              <img src="./res/Image (5).png" alt="" />
+              <div class="pl-3 pt-2 pb-3 shadow-lg rounded-b-md">
+                <p class="text-xl font-semibold">Jenny Wilson</p>
+                <p>Ceo & Founder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div  class="flex flex-col justify-center items-center">
+        <img src="./res/Testimonials Section.png" alt="" />
+        <img src="./res/Company Section.png" alt="" />
+      </div>
+
+    </main>
+    <footer>
+        <div class="mt-20 bg-black">
+           <div class="flex justify-between items-center  w-[80%] mx-auto text-white py-20 border-b border-gray-300">
+                <div class="w-[30%]">
+                    <img src="./res/Logo.png" alt="">
+                    <p class="my-10">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+                    <p >(219) 555-0114  or  Proxy@gmail.com</p>
+                </div>
+                <div class="">
+                    <p class="text-2xl mb-10">My Account</p>
+                    <p>My Account</p>
+                    <p>Order History</p>
+                    <p>Shoping Cart</p>
+                    <p>Wishlist</p>
+                </div>
+                <div>
+                    <p  class="text-2xl mb-10">Helps</p>
+                    <p>Contact</p>
+                    <p>Faqs</p>
+                    <p>Terms & condition</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p  class="text-2xl mb-10">Proxy</p>
+                    <p>About</p>
+                    <p>Shop</p>
+                    <p>Product</p>
+                    <p>Track Order</p>
+                </div>
+                <div>
+                    <p  class="text-2xl mb-10">Categories</p>
+                    <p>Fruit & Vegetables</p>
+                    <p>Meat & Fish</p>
+                    <p>Bread & Bakery</p>
+                    <p>Beauty & Health</p>
+                </div>
+           </div>
+           <div>
+            <div class="flex justify-between items-center py-10 w-[80%] mx-auto">
+                <p class="text-white">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                <img src="./res/Frame 142.png" alt="">
+            </div>
+           </div>
+        </div>
+    </footer>
+  </body>
+</html>
